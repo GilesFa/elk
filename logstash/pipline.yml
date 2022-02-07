@@ -1,0 +1,11 @@
+- pipeline.id: syslog2es-sslvpn
+  pipeline.workers: 5
+  pipeline.batch.size: 4000
+  pipeline.batch.delay: 50
+  path.config: "/usr/share/logstash/config/fw_syslog-input-output-es_sslvpn.conf"
+
+- pipeline.id: syslog2es-traffic
+  pipeline.workers: 5
+  pipeline.batch.size: 4000
+  pipeline.batch.delay: 50
+  path.config: "/usr/share/logstash/config/fw_syslog-input-output-es_traffic.conf"
