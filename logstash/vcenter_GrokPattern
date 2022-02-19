@@ -1,0 +1,2 @@
+#login vcenter Successful
+%{TIMESTAMP_ISO8601:timestamp_ISO8601} %{SYSLOGHOST:hostname} %{SYSLOGPROG:syslog_program} %{NUMBER:program_number} - -  %{CISCO_REASON:reason} \[%{SYSLOG5424PRINTASCII:reason_number}\] \[%{DATA:thread}\] \[%{TIMESTAMP_ISO8601:timestamp_ISO8601-2}\] \[%{GREEDYDATA:detail}\] \[%{DATA:logType}\] \[%{DATA:account}\] \[\] \[%{SYSLOG5424PRINTASCII:reason_number2}\] \[%{DATA:status} %{DATA:action} %{DATA:account2} from %{IP:srcip} at %{DATE:date} %{TIME:time} %{GREEDYDATA:detail}\]
