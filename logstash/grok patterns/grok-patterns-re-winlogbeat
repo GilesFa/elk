@@ -1,0 +1,8 @@
+#\\TWFS01\iemode
+WIN_SHAREPATH \\\\TWFS0[0-9]\\iemode
+
+#desktop.ini
+WIN_REMOVE1 [Dd][a-z]{6}.ini
+
+#Thumbs.db
+WIN_REMOVE2 [tT][a-z]{5}.db
